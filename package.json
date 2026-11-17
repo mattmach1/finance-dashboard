@@ -1,0 +1,16 @@
+{
+  "name": "personal-finance-dashboard",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "dev:web": "npm run dev --workspace=@finance/web",
+    "dev:api": "npm run dev --workspace=@finance/api"
+  }
+}
